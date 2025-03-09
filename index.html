@@ -12,34 +12,68 @@
             font-size: 18px;
             text-align: center;
         }
+        footer {
+            font-size: small;
+            text-align: center;
+            color: #617274;
+        }
 		p {
 			line-height:1.5em;
 		}
 		.responsive {
 			width: 100%;
-			max-width: 400px;
+			max-width: 240px;
 			height: auto;
 		}
+        .button1 {
+            background-color: forestgreen;
+            border-radius: 25px;
+            font-size: 1.5em;
+            height: auto;
+			width: auto;
+            max-width: 240px;
+            margin: 10px auto 40px;
+            padding: 10px;
+        }
+            .button1 a:link, a:visited, a:hover, a:active {
+                color: white;
+                text-align: center;
+                text-decoration: none;
+            }
 	</style>
 </head>
 	<body>
 		<main>
 			<header>
-				<img src="images/617274_art_Kevin_logo.jpg"  class="responsive" alt="617274-art-Kevin logo">
+				<img src="images/617274_art_Kevin_logo.jpg" class="responsive" alt="617274-art-Kevin logo">
 			</header>
-			<section>
+			<section style="padding-bottom:20px;">
 				<h1>
 					Hi and hello.
 				</h1>
 				<p>
-					I'm Kevin. How are you?
+					How are you? I'm Kevin.<br />
+					Choose your quick adventure.<br />
+					<span style="font-size: small;">Because time is valuable.</span>
 				</p>
-				<div style="margin:0px 0px 100px 0px; font-size:small;">
-					<p>
-						&copy; 617274.com
-					</p>
-				</div>
 			</section>
+			<section>
+				<p>
+					<h2 style="color:forestgreen;">Project 1: Hire Kevin</h2>
+					See one clear example to hire Kevin for a Tech Support role.
+				</p>
+				<p class="button1">
+					<a href="tech.html">See it</a>
+				</p>
+			</section>
+			<footer>
+				<hr style="color:#617274; height:1px; border:0px; background-color:#617274; max-width:100px" />
+				<div>
+					Project 1.0<br />
+					Combining Art, Science, Nature and Technology.<br />
+					&copy;2025 Kevin | 617274.com<br /><br /><br />
+				</div>
+			</footer>
 		</main>
 	</body>
 </html>
