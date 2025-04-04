@@ -21,11 +21,11 @@
         header {
             width: 100%;
             max-width: 600px;
-            height: auto;
+            height: 100px;
             background-color: midnightblue;
             color: white;
-            padding: 10px 20px;
             text-align: center;
+            padding: 10px 0px;
         }
 
         footer {
@@ -51,15 +51,10 @@
             margin: 5px 0;
         }
 
-        @media (max-width: 600px) {
-            header {
-                font-size: 18px;
-                padding: 15px;
-            }
-
-            main {
-                padding: 20px;
-            }
+        .responsive
+        {
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -67,7 +62,7 @@
 <body>
 
     <header>
-        <h1>Kevin's Quick IT Plan</h1>
+        <h1>Quick IT Plan</h1>
     </header>
 
     <main>
@@ -104,13 +99,14 @@
                 </li>
             </ul>
         </section>
-
+        <section style="width:100%;">
+            <a href="images/617274_art_Kevin_quickit-fundamentals-artwork.png"><img class="responsive" src="images/617274_art_Kevin_quickit-fundamentals-artwork_thumbnail.png" alt="[Two of Kevin's fine art paintings as examples]" /></a><br />
+            <p style="font-size:small;text-align:center;margin-top:0;">Select imaage and zoom in for a closer look.</p>
+        </section>
         <section>
             <h2>
                 Why Computer Networking?
             </h2>
-            <a href="images/617274_art_Kevin_quickit-fundamentals-artwork.png"><img src="images/617274_art_Kevin_quickit-fundamentals-artwork.png" height="227" max-width="580" alt="[Two of Kevin's fine art paintings as examples]" /></a><br />
-            <p style="font-size:small;text-align:center;margin-top:0;">Select imaage and zoom in for a closer look.</p>
             <ul>
                 <li>
                     Through fine art painting, I realized the power and value of learning the fundamentals.
